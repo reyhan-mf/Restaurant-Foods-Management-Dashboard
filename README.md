@@ -1,5 +1,7 @@
 # Dicoding Collection Dashboard ✨
+![erd](https://raw.githubusercontent.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/main/erd.jpg)
 
+![erd](https://raw.githubusercontent.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/main/erd.jpg)
 ## Setup environment
 ```
 conda create --name main-ds python=3.9
