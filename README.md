@@ -7,16 +7,48 @@ Welcome to the Restaurant Dashboard Project, a comprehensive analysis tool desig
 
 ![fisik](https://raw.githubusercontent.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/main/fisik.jpg)
 
-#
+## Core Features
+Below are the feature of what i've created in this project for analyzing sales and foods management.
+
+### Foods Menu
+![foods](https://github.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/blob/main/menu.png?raw=true)
+
+### Detail Orders History
+![history](https://github.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/blob/main/detail.png?raw=true)
+
+### Orders Chart
+![chart1](https://github.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/blob/main/orders_chart1.png?raw=true)
+![chart2](https://github.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/blob/main/orders_chart2.png?raw=true)
+
+### Stocks and Quantity
+![stocks](https://github.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/blob/main/sorted_stocks.png?raw=true)
+![qty](https://github.com/reyhan-mf/Restaurant-Foods-Management-Dashboard/blob/main/sorted_quantity.png?raw=true)
+
+
+## Prerequisites
+* XAMPP is already Installed
+* MySQL is already Installed
+* Python latest version is already Installed
+
+
 ## Setup environment
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel mysql-connector-python
+
 ```
 
-## Run steamlit app
+## Steps
 ```
-streamlit run dashboard.py
+1. Open XAMPP start Apache and MySQL
+2. access url localhost/phpmyadmin/ in your browser
+3. import SQL in repo to your database
+4. Open home.py, in my case i'm using visual studio code (make sure your directory is right.)
+5. Open terminal and run the code, it will told you to run streamlit run \your_path
 ```
+
+
+
+
 
